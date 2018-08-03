@@ -1,0 +1,27 @@
+Install CLI Globaly: npm install -g @angular/cli
+or localy inside existing project: npm install
+
+Creating new project:ng new [new`s project name] 
+(it will install CLI automaticly)
+--prefix (change "prefix" parameter in angular.json file)
+
+
+StartUp web server :ng serve
+-o (open in the default browse)
+or :npm start
+
+
+Generate smthing new:	
+	Component
+		ng g c {new`s component name}
+g (generate)
+c (component)
+By the default CLI creates it in new folder,but if we don`t need it add 
+"--flat" flag 
+	Service
+		ng g s {new`s sevice name}
+-d (dry run,just shows which files is going to be generated)
+-m {module`s name} 
+	Module
+		ng g m {new`s module name}
+--spec (creates *.spec.ts file)
